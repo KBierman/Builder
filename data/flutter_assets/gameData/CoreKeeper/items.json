@@ -1,0 +1,2517 @@
+{
+    "Items":{
+        "Wood Helmet":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 3.0,
+                "healthMax": 5.0
+            }
+        },
+        "Wood Chest":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 6.0,
+                "healthMax": 4.0
+            }
+        },
+        "Wood Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 6.0,
+                "healthMax": 4.0
+            }
+        },
+        "Copper Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 4.0,
+                "healthMax": 8.0
+            }
+        },
+        "Copper Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 10.0
+            }
+        },
+        "Copper Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 6.0,
+                "healthMax": 9.0
+            }
+        },
+        "Bronze Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 6.0,
+                "healthMax": 12.0,
+                "miningMult": 0.05
+            }
+        },
+        "Bronze Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 9.0,
+                "healthMax": 18.0,
+                "meleeMult": 0.074
+            }
+        },
+        "Bronze Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 8.0,
+                "healthMax": 14.0,
+                "rangeMult": 0.06
+            }
+        },
+        "Iron Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "healthMax": 15.0,
+                "damageMult": 0.048
+            }
+        },
+        "Iron Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 25.0,
+                "damageMult": 0.072
+            }
+        },
+        "Iron Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 20.0,
+                "damageMult": 0.058
+            }
+        },
+        "Scarlet Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 25.0,
+                "critCh": 0.03
+            }
+        },
+        "Scarlet Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 19.0,
+                "healthMax": 31.0,
+                "critCh": 0.04
+            }
+        },
+        "Scarlet Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 27.0,
+                "critCh": 0.03
+            }
+        },
+        "Octarine Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 15.0,
+                "healthMax": 29.0,
+                "miningSpeed": 0.066
+            }
+        },
+        "Octarine Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 22.0,
+                "healthMax": 37.0,
+                "meleeSpeed": 0.06
+            }
+        },
+        "Octarine Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 18.0,
+                "healthMax": 32.0,
+                "rangeSpeed": 0.056
+            }
+        },
+        "Galaxite Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 18.0,
+                "healthMax": 34.0,
+                "critDam": 0.14
+            }
+        },
+        "Galaxite Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 26.0,
+                "healthMax": 42.0,
+                "critDam": 0.19
+            }
+        },
+        "Galaxite Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 43.0,
+                "critDam": 0.19
+            }
+        },
+        "Solarite Barbute":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 36.0,
+                "critDam": 0.14,
+                "lifeOnHit": 4.0
+            }
+        },
+        "Solarite Cuirass":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 26.0,
+                "healthMax": 52.0,
+                "meleeSpeed": 0.051,
+                "rangeSpeed": 0.051,
+                "lifeOnHit": 6
+            }
+        },
+        "Solarite Tassets":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 27.0,
+                "healthMax": 51.0,
+                "critCh": 0.07,
+                "lifeOnHit": 5
+            }
+        },
+        "Rain Coat":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 4.0,
+                "healthMax": 10.0,
+                "slimeRes": 0.25
+            }
+        },
+        "Rubber Boots":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 4.0,
+                "healthMax": 9.0,
+                "slimeRes": 0.25
+            }
+        },
+        "Pot Lid":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 9.0,
+                "critCh": 0.02,
+                "critDam": 0.06
+            }
+        },
+        "Pot Tub":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 9.0,
+                "critCh": 0.02,
+                "critDam": 0.07
+            }
+        },
+        "Ranger Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 5.0,
+                "healthMax": 8.0,
+                "rangeMult": 0.037
+            }
+        },
+        "Ranger Tunic":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 10.0,
+                "rangeSpeed": 0.012
+            }
+        },
+        "Ranger Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 6.0,
+                "healthMax": 9.0,
+                "critDam": 0.07
+            }
+        },
+        "Peasant Hat":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 2.0,
+                "dodgeCh": 0.02
+            }
+        },
+        "Peasant Chest":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 2.0,
+                "dodgeCh": 0.02
+            }
+        },
+        "Caveling Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 15.0,
+                "dodgeCh": 0.03,
+                "meleeMult": 0.072
+            }
+        },
+        "Caveling Chest":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 24.0,
+                "dodgeCh": 0.04,
+                "rangeMult": 0.081
+            }
+        },
+        "Caveling Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 20.0,
+                "dodgeCh": 0.04,
+                "miningMult": 0.08
+            }
+        },
+        "Sentry Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 19.0,
+                "healthMax": 36.0,
+                "bossRdc": -0.07
+            }
+        },
+        "Stone Chestplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 25.0,
+                "bossRdc": -0.05
+            }
+        },
+        "Stone Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 21.0,
+                "bossRdc": -0.05
+            }
+        },
+        "Cooking Pot Lid":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "critCh": 0.03,
+                "foodRdc": 0.02
+            }
+        },
+        "Cooking Pot Tub":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 15.0,
+                "critCh": 0.03,
+                "foodRdc": 0.02
+            }
+        },
+        "Carapace Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "healthMax": 17.0,
+                "explosiveMult": 0.06
+            }
+        },
+        "Carapace Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 15.0,
+                "healthMax": 27.0,
+                "explosiveMult": 0.09
+            }
+        },
+        "Larva Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "healthMax": 20.0,
+                "movementSpeed": -0.052,
+                "miningMax": 26.0
+            }
+        },
+        "Larva Chest":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "healthMax": 27.0,
+                "movementSpeed": -0.054,
+                "miningMax": 28.0
+            }
+        },
+        "Hivebone Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 20.0,
+                "thorns": 12.0,
+                "rangeSpeed": 0.03,
+                "meleeSpeed": 0.03
+            }
+        },
+        "Hivebone Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "healthMax": 29.0,
+                "thorns": 10.0,
+                "rangeSpeed": 0.032,
+                "meleeSpeed": 0.032
+            }
+        },
+        "Hivebone Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "healthMax": 26.0,
+                "thorns": 10.0,
+                "rangeSpeed": 0.031,
+                "meleeSpeed": 0.031
+            }
+        },
+        "Hunter Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 23.0,
+                "dodgeCh": 0.04,
+                "rangeMult": 0.09
+            }
+        },
+        "Hunter Cloak":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 36.0,
+                "dodgeCh": 0.06,
+                "rangeMult": 0.115
+            }
+        },
+        "Mercenary Headband":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 23.0,
+                "damageMult": 0.059,
+                "dodgeCh": 0.05,
+                "movementSpeed": 0.061
+            }
+        },
+        "Mercenary Tank Top":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 34.0,
+                "damageMult": 0.092,
+                "moveAfterDodge": 0.159
+            }
+        },
+        "Mercenary Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 16.0,
+                "damageMult": 0.115,
+                "movementSpeed": 0.045
+            }
+        },
+        "Moldweb Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 24.0,
+                "meleeSpeed": 0.022
+            }
+        },
+        "Moldweb Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 32.0,
+                "bossMult": 0.12
+            }
+        },
+        "Moldweb Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 17.0,
+                "healthMax": 32.0,
+                "meleeMult": 0.104
+            }
+        },
+        "Ivy's Thorn Harness":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 53.0,
+                "critDam": 0.31
+            }
+        },
+        "Ivy's Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 49.0,
+                "critDam": 0.31
+            }
+        },
+        "Scholar's Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 8.0,
+                "healthMax": 32.0,
+                "dodgeCh": 0.03,
+                "rangeSpeed": 0.034
+            }
+        },
+        "Scholar's Cloak":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 46.0,
+                "dodgeCh": 0.04,
+                "critCh": 0.04
+            }
+        },
+        "Slime Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 29.0,
+                "damageMult": 0.08
+            }
+        },
+        "Slime Armor":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 22.0,
+                "healthMax": 37.0,
+                "damageMult": 0.119
+            }
+        },
+        "Omoroth's Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 17.0,
+                "healthMax": 34.0,
+                "meleeSpeed": 0.017,
+                "rangeSpeed": 0.017,
+                "damageMult": 0.055 
+            }
+        },
+        "Omoroth's Breastplate":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 41.0,
+                "meleeSpeed": 0.022,
+                "rangeSpeed": 0.022,
+                "damageMult": 0.071
+            }
+        },
+        "Omoroth's Leg Armor":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 19.0,
+                "healthMax": 37.0,
+                "rangeSpeed": 0.02,
+                "meleeSpeed": 0.02,
+                "damageMult": 0.065
+            }
+        },
+        "Assassin Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 36.0,
+                "dodgeCh": 0.04,
+                "movementSpeed": 0.029
+            }
+        },
+        "Assassin Cloak":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 18.0,
+                "healthMax": 49.0,
+                "dodgeCh": 0.05,
+                "movementSpeed": 0.044
+            }
+        },
+        "Paladin Mask":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 22.0,
+                "critCh": 0.05,
+                "dodgeCh": 0.04
+            }
+        },
+        "Paladin Harness":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 36.0,
+                "critCh": 0.06,
+                "dodgeCh": 0.06
+            }
+        },
+        "Paladin Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 28.0,
+                "critCh": 0.06,
+                "dodgeCh": 0.06
+            }
+        },
+        "Magma Horn Armor":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 25.0,
+                "healthMax": 36.0,
+                "burnHit": 25.0
+            }
+        },
+        "Magma Torso Armor":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 36.0,
+                "healthMax": 52.0,
+                "burnHit": 33.0
+            }
+        },
+        "Magma Shin Armor":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 33.0,
+                "healthMax": 47.0,
+                "burnHit": 32.0
+            }
+        },
+        "Scarab Visor":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 34.0,
+                "thorns": 25.0
+            }
+        },
+        "Scarab Harness":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 28.0,
+                "healthMax": 52.0,
+                "thorns": 31.0
+            }
+        },
+        "Scarab Legs":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 23.0,
+                "healthMax": 42.0,
+                "thorns": 30.0
+            }
+        },
+        "Ninja Cowl":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 17.0,
+                "healthMax": 42.0,
+                "critCh": 0.06,
+                "critDam": 0.19,
+                "dodgeCh": 0.07
+            }
+        },
+        "Ninja Garments":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 19.0,
+                "healthMax": 58.0,
+                "critCh": 0.08,
+                "critDam": 0.2,
+                "dodgeCh": 0.08
+            }
+        },
+        "Ninja Leggings":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 17.0,
+                "healthMax": 49.0,
+                "critCh": 0.07,
+                "critDam": 0.22,
+                "dodgeCh": 0.07
+            }
+        },
+        "Gemstone Garment":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 52.0,
+                "meleeSpeed": 0.103,
+                "rangeSpeed": 0.103,
+                "movementSpeed": 0.081
+            }
+        },
+        "Gemstone Harem Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "healthMax": 44.0,
+                "meleeSpeed": 0.102,
+                "rangeSpeed": 0.102,
+                "movementSpeed": 0.072
+            }
+        },
+        "Cosmos Visor Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 25.0,
+                "healthMax": 40.0,
+                "miningMax": 40.0,
+                "damageMult": 0.095
+            }
+        },
+        "Cosmos Torso":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 34.0,
+                "healthMax": 54.0,
+                "miningMax": 71.0,
+                "damageMult": 0.099
+            }
+        },
+        "Cosmos Legwear":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 28.0,
+                "healthMax": 49.0,
+                "miningMax": 63.0,
+                "damageMult": 0.101
+            }
+        },
+        "Hazmat Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 21.0,
+                "healthMax": 40.0,
+                "meleeMult": 0.137
+            }
+        },
+        "Hazmat Suit Jacket":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 25.0,
+                "healthMax": 56.0,
+                "meleeMult": 0.176
+            }
+        },
+        "Hazmat Suit Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 26.0,
+                "healthMax": 44.0,
+                "meleeMult": 0.189
+            }
+        },
+        "Godsent King Mask":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 19.0,
+                "healthMax": 38.0,
+                "damageMult": 0.084,
+                "raCh": 0.04
+            }
+        },
+        "Godsent King Breast Armor":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 27.0,
+                "healthMax": 50.0,
+                "damageMult": 0.096,
+                "azCh": 0.06
+            }
+        },
+        "Godsent King Pants Armor":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 23.0,
+                "healthMax": 46.0,
+                "rangeSpeed": 0.09,
+                "omCH": 0.03
+            }
+        },
+        "Adventurer's Hat":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 5.0,
+                "healthMax": 7.0,
+                "movementSpeed": 0.03,
+                "damageMult": 0.039,
+                "miningMax": 8.0,
+                "fishingMax": 10.0
+            }
+        },
+        "Shrooman Cap":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 5.0,
+                "healthMax": 7.0,
+                "regenMax": 0.1
+            }
+        },
+        "King Slime Crown":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "healthMax": 23.0,
+                "glow": 3.0,
+                "critCh": 0.02
+            }
+        },
+        "Shaman Skull":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "healthMax": 23.0,
+                "burnHit": 11.0,
+                "burnQck": 0.06
+            }
+        },
+        "Trenchcoat":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 24.0,
+                "dodgeCh": 0.04,
+                "pickupRad": 0.4
+            }
+        },
+        "Skirmisher Cap":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 15.0,
+                "rangeSpeed": 0.015
+            }
+        },
+        "Farmer's Hat":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 20.0,
+                "regenMult": 0.07,
+                "exHarvest": 0.101
+            }
+        },
+        "Plague Mask":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 26.0,
+                "damageMult": 0.066,
+                "scndCh": 0.04
+            }
+        },
+        "Atlantean Worm Helmet":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 39.0,
+                "critCh": 0.09,
+                "meleeSpeed": 0.053,
+                "rangeSpeed": 0.053,
+                "critDam": 0.27,
+                "regenMax": 1.1
+            }
+        },
+        "Diving Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 17.0,
+                "healthMax": 30.0,
+                "fishingMax": 40.0,
+                "fishingRarity": 0.07
+            }
+        },
+        "Kelp Mantle":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 16.0,
+                "healthMax": 32.0,
+                "fishingClose": 0.07
+            }
+        },
+        "Scuba Fins":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 12.0,
+                "fishingCh": 0.08
+            }
+        },
+        "Miner's Protective Helm":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 40.0,
+                "glow": 4.0,
+                "miningMult": 0.14
+            }
+        },
+        "Miner's Labour Suit":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 46.0,
+                "miningSpeed": 0.037,
+                "miningMult": 0.18
+            }
+        },
+        "Miner's Worker Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 49.0,
+                "miningMax": 78.0,
+                "miningMult": 0.038
+            }
+        },
+        "Wildwarden Mask":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "healthMax": 25.0,
+                "petSpeed": 0.193
+            }
+        },
+        "Wildwarden Pauldrons":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 18.0,
+                "healthMax": 33.0,
+                "petDamMult": 0.051
+            }
+        },
+        "Wildwarden Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 15.0,
+                "healthMax": 31.0,
+                "petCritDam": 0.19
+            }
+        },
+        "Bikini Top":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 30.0,
+                "movementSpeed": 0.07
+            }
+        },
+        "Bikini Bottom":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 25.0,
+                "movementSpeed": 0.06
+            }
+        },
+        "Board Shorts":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "healthMax": 25.0,
+                "movementSpeed": 0.06
+            }
+        },
+        "Sunglasses":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "dodgeCh": 0.07
+            }
+        },
+        "Towel":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 30.0,
+                "movementSpeed": 0.07
+            }
+        },
+        "Radical Rabbit Ears":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 23.0,
+                "dodgeCh": 0.04,
+                "movementSpeed": 0.038
+            }
+        },
+        "Radical Rabbit Headband":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "healthMax": 23.0,
+                "dodgeCh": 0.04,
+                "movementSpeed": 0.038
+            }
+        },
+        "Cupid Tunic":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "healthMax": 18.0,
+                "rangeSpeed": 0.027
+            }
+        },
+        "Pumpkin Head":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 24.0,
+                "glow": 2.0
+            }
+        },
+        "Frankenbrute Head":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "healthMax": 24.0,
+                "knockbackCh": 0.09
+            }
+        },
+        "Dracularva Cape":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 24.0,
+                "lifeOnHit": 3.0
+            }
+        },
+        "Spooky Blanket Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "dodgeCh": 0.04,
+                "movementSpeed": 0.038
+            }
+        },
+        "Spooky Blanket Cape":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "dodgeCh": 0.04,
+                "movementSpeed": 0.041
+            }
+        },
+        "Festive Hat":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 5.0,
+                "healthMax": 8.0,
+                "regenMax": 0.2
+            }
+        },
+        "Snowman Hat":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 12.0
+            }
+        },
+        "Gingerbreadman Head":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "healthMax": 21.0,
+                "foodRdc": 0.04
+            }
+        },
+        "Gingerbread Hood":{
+            "tags":[
+                "helmet"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "healthMax": 19.0,
+                "meleeSpeed": 0.014,
+                "rangeSpeed": 0.014
+            }
+        },
+        "Gingerbread Top":{
+            "tags":[
+                "chest"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 26.0,
+                "foodRdc": 0.04
+            }
+        },
+        "Gingerbread Pants":{
+            "tags":[
+                "boot"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 22.0,
+                "foodRdc": 0.04
+            }
+        },
+        "Rusted Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "armorMax": 4.0
+            }
+        },
+        "Ring of Stone":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "miningMax": 14.0
+            }
+        },
+        "Glow Tulip Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "glow": 3.0
+            }
+        },
+        "Melting Crystal Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "dodgeCh": 0.05
+            }
+        },
+        "Valentine Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "regenMax": 0.07
+            }
+        },
+        "Clot Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "lifeOnHit": 3.0
+            }
+        },
+        "Swift Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "movementSpeed": 0.069
+            }
+        },
+        "Gold Crystal Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "rangeMult": 0.0173
+            }
+        },
+        "Larva Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 21.0
+            }
+        },
+        "Goldfish Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "fishingFast": 0.13
+            }
+        },
+        "Ring of Rock":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "armorMax": 13.0
+            }
+        },
+        "Samhain Curse Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "poisonCh": 0.06,
+                "damageMult": -0.038
+            }
+        },
+        "Sea Foam Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "fishingMax": 51.0
+            }
+        },
+        "Skull Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": -29.0,
+                "meleeSpeed": 0.089
+            }
+        },
+        "Caveling Mother's Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "regenMax": 1.6
+            }
+        },
+        "Ivy's Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "rangeSpeed": 0.045
+            }
+        },
+        "Ostara Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "dodgeCh": 0.05,
+                "regenMax": 0.9
+            }
+        },
+        "Petal Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 31.0,
+                "exHarvest": 0.227
+            }
+        },
+        "Wildwarden Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "petDamMult": 0.053,
+                "damageMult": 0.084
+            }
+        },
+        "Wooden Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 29.0
+            }
+        },
+        "Wooden Thorn Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "thorns": 22.0
+            }
+        },
+        "Golden Spike Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "thorns": 11.0,
+                "critCh": 0.05
+            }
+        },
+        "Magnetic Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "pickupRad": 1.08
+            }
+        },
+        "Mold Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "critCh": 0.1
+            }
+        },
+        "Sky Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "meleeMult": 0.135,
+                "critCh": 0.05
+            }
+        },
+        "Topaz Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "miningMult": 0.23
+            }
+        },
+        "White Glass Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 36.0,
+                "dodgeCh": 0.1
+            }
+        },
+        "Ancient Guardian Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 18.0,
+                "bossRdc": -0.07
+            }
+        },
+        "Lucky Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "fishingNonFish": 0.07,
+                "exOre": 0.07
+            }
+        },
+        "Octarine Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "rangeSpeed": 0.029,
+                "meleeSpeed": 0.029
+            }
+        },
+        "Septum Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "armorMax": 19.0
+            }
+        },
+        "Ancient Gem Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "miningMax": 62.0,
+                "critDam": 0.17
+            }
+        },
+        "Bone Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "critCh": 0.06
+            }
+        },
+        "Coral Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 45.0,
+                "boatSpeed": 0.06
+            }
+        },
+        "Morpha Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "critDam": 0.36
+            }
+        },
+        "Noble Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 37.0,
+                "regenMult": 0.2
+            }
+        },
+        "Omoroth's Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "lifeOnHit": 3.0,
+                "bossMult": 0.13
+            }
+        },
+        "Polished Glow Tulip Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "regenMax": 1.0,
+                "glow": 4.0
+            }
+        },
+        "Polished Gold Crystal Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "rangeMult": 0.19,
+                "rangeSpeed": 0.035
+            }
+        },
+        "Polished Gold Spike Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "thorns": 18.0,
+                "critCh": 0.06,
+                "critDam": 0.22
+            }
+        },
+        "Polished Magnetic Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "pickupRad": 1.25,
+                "explosiveMult": 0.24
+            }
+        },
+        "Polished Octarine Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "rangeSpeed": 0.042,
+                "miningSpeed": 0.042,
+                "meleeSpeed": 0.042
+            }
+        },
+        "Polished Swift Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "meleeSpeed": 0.032,
+                "movementSpeed": 0.071
+            }
+        },
+        "Spine Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "bossMult": 0.28
+            }
+        },
+        "Double Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "critDam": 0.09,
+                "critCh": 0.03,
+                "meleeSpeed": 0.018,
+                "rangeSpeed": 0.018,
+                "damageMult": 0.055
+            }
+        },
+        "Flame Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "dodgeCh": 0.05,
+                "burnHit": 27.0
+            }
+        },
+        "Nomad Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 46.0,
+                "damageMult": 0.177
+            }
+        },
+        "Black Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "miningMax": 49.0,
+                "miningSpeed": 0.023,
+                "armorMax": 8.0
+            }
+        },
+        "Bomb Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "healthMax": 45.0,
+                "explosiveMult": 0.27
+            }
+        },
+        "Ring of Sand":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "enemySpeed": -0.134
+            }
+        },
+        "Glass Bead Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "damageTknMult": 0.3,
+                "damageMult": 0.3
+            }
+        },
+        "Atlantean Worm Ring":{
+            "tags":[
+                "ring"
+            ],
+            "values":{
+                "meleeMult": 0.172,
+                "lifeOnHit": 4.0
+            }
+        },
+        "Copper Cross Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "critCh": 0.04
+            }
+        },
+        "Cave Guppy Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "dodgeCh": 0.05
+            }
+        },
+        "Blob Rosary Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "healthMax": 15.0
+            }
+        },
+        "Fang Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "critCh": 0.03,
+                "lifeOnHit": 2.0
+            }
+        },
+        "Heart Berry Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "regenMax": 0.7
+            }
+        },
+        "Valentine Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "regenMult": 0.07
+            }
+        },
+        "Iron Chunk Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 12.0
+            }
+        },
+        "Ammonite Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "healthMax": 22.0
+            }
+        },
+        "Bubble Pearl Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "healthMax": 12.0,
+                "dodgeCh": 0.05
+            }
+        },
+        "Gold Crystal Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "rangeMult": 0.094,
+                "meleeMult": 0.09
+            }
+        },
+        "Grub Egg Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "meleeMult": 0.181
+            }
+        },
+        "Neptune Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "fishingMax": 52.0
+            }
+        },
+        "Samhain Offering Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "damageMult": 0.045,
+                "lifeOnHit": 4.5
+            }
+        },
+        "Skull Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "healthMax": -26.0,
+                "rangeSpeed": 0.09
+            }
+        },
+        "Eostre Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "exHarvest": 0.103,
+                "movementSpeed": 0.049
+            }
+        },
+        "Rusted Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "miningMult": 0.19
+            }
+        },
+        "Wildwarden Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 5.0,
+                "critCh": 0.03,
+                "petCritCh": 0.04
+            }
+        },
+        "Ancient Gem Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "miningSpeed": 0.028,
+                "meleeSpeed": 0.028
+            }
+        },
+        "Ancient Guardian Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "bossRdc": -0.14
+            }
+        },
+        "Azeos Beak Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "miningMax": 41.0,
+                "lifeOnHit": 3.0
+            }
+        },
+        "Coral Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "boatSpeed": 0.11
+            }
+        },
+        "Mold Vein Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "rangeMult": 0.237
+            }
+        },
+        "Remedaisy Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "poisonRes": 1.0
+            }
+        },
+        "Scarlet Chunk Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 19.0
+            }
+        },
+        "Octarine Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "meleeSpeed": 0.058,
+                "rangeSpeed": 0.058
+            }
+        },
+        "Torc Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "damageMult": 0.163
+            }
+        },
+        "Bone Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "critCh": 0.07
+            }
+        },
+        "Conch Shell Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 14.0,
+                "dodgeCh": 0.06,
+                "healthMax": 25.0
+            }
+        },
+        "Oceanheart Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "healthMax": 42.0,
+                "regenMult": 0.21
+            }
+        },
+        "Omoroth's Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 7.0,
+                "glow": 4.0,
+                "movementSpeed": 0.035,
+                "miningMax": 10.0,
+                "dodgeCh": 0.04,
+                "damageMult": 0.071
+            }
+        },
+        "Polished Copper Cross Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "critCh": 0.06,
+                "critDam": 0.18
+            }
+        },
+        "Polished Coral Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "boatSpeed": 0.17,
+                "fishingRarity": 0.12
+            }
+        },
+        "Polished Gold Crystal Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "rangeMult": 0.225,
+                "meleeMult": 0.213
+            }
+        },
+        "Polished Iron Chunk Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 20.0,
+                "healthMax": 38.0
+            }
+        },
+        "Polished Octarine Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "meleeSpeed": 0.076,
+                "rangeSpeed": 0.076,
+                "movementSpeed": 0.055
+            }
+        },
+        "Polished Scarlet Chunk Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 26.0,
+                "dodgeCh": 0.09
+            }
+        },
+        "Black Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "miningMax": 62.0,
+                "miningSpeed": 0.037
+            }
+        },
+        "Nomad Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "healthMax": 40.0,
+                "critDam": 0.28
+            }
+        },
+        "Flame Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "burnHit": 59.0
+            }
+        },
+        "Fusioned Chunk Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "healthMax": 21.0,
+                "lifeOnMeleeHit": 7.0
+            }
+        },
+        "Ra-Akar's Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "thorns": 15.0,
+                "healthMax": 24.0
+            }
+        },
+        "Atlantean Worm Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "regenMax": 1.4,
+                "bossMult": 0.17
+            }
+        },
+        "Glass Bead Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "damageTknMult": 0.3,
+                "critDam": 0.75
+            }
+        },
+        "Tower Shell Necklace":{
+            "tags":[
+                "necklace"
+            ],
+            "values":{
+                "miningMax": 188.0
+            }
+        },
+        "Wooden Shield":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 6.0
+            }
+        },
+        "Swift Feather":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "dodgeCh": 0.02
+            }
+        },
+        "Iron Shield":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 12.0,
+                "healthMax": 14.0
+            }
+        },
+        "Blue Leather Tome":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "rangeMult": 0.216
+            }
+        },
+        "Royal Gel":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "enemySpeed": -15.3
+            }
+        },
+        "Azeos' Dash Feather":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "movementSpeed": 0.046
+            }
+        },
+        "Toxic Defender":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 17.0
+            }
+        },
+        "Caveling ID":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "dodgeCh": 0.08
+            }
+        },
+        "Golden Jellyfish":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "regenMax": 1.9
+            }
+        },
+        "Octarine Shield":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 10.0,
+                "meleeSpeed": 3.3,
+                "rangeSpeed": 3.3,
+                "healthMax": 18.0
+            }
+        },
+        "Concealed Blade":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "critCh": 0.09
+            }
+        },
+        "Sentry Shield":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 22.0,
+                "healthMax": 19.0
+            }
+        },
+        "Turtle Shell":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 32.0,
+                "bossRdc": -0.07
+            }
+        },
+        "Omoroth's Beak":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "meleeMult": 0.291
+            }
+        },
+        "Crystal Meteor Chunk":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "damageMult": 0.229,
+                "armorMult": -0.229,
+                "glow": 3.0
+            }
+        },
+        "Oracle Deck":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "healthMax": 48.0,
+                "regenMax": 4.2
+            }
+        },
+        "Smithing Glove":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 11.0,
+                "damageOnBurnVictims": 0.19
+            }
+        },
+        "Core Iris":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "miningMax": 62.0,
+                "exOre": 0.1,
+                "oreDistance": 4.0
+            }
+        },
+        "Pet Rock":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "petEfectivness": 0.14
+            }
+        },
+        "Scorching Aegis":{
+            "tags":[
+                "offhand"
+            ],
+            "values":{
+                "armorMax": 25.0,
+                "healthMax": 23.0
+            }
+        },
+        "Belt Pocket":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "healthMax": 6.0
+            }
+        },
+        "Cave Pouch":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "healthMax": 5.0,
+                "movementSpeed": 0.02
+            }
+        },
+        "Explorer Backpack":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "movementSpeed": 0.043
+            }
+        },
+        "Ghorm's Stomach Bag":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "healthMax": 30.0
+            }
+        },
+        "Scarlet Shell Backpack":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "healthMax": 15.0,
+                "armorMax": 14.0
+            }
+        },
+        "Morpha's Bubble Bag":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "miningMult": 0.12,
+                "movementSpeed": 0.047
+            }
+        },
+        "Octarine Bag":{
+            "tags":[
+                "bag"
+            ],
+            "values":{
+                "armorMax": 13.0,
+                "glow": 3.0
+            }
+        },
+        "Small Lantern":{
+            "tags":[
+                "lantern"
+            ],
+            "values":{
+                "glow": 3.0
+            }
+        },
+        "Lantern":{
+            "tags":[
+                "lantern"
+            ],
+            "values":{
+                "glow": 4.0,
+                "healthMax": 9.0
+            }
+        },
+        "Pumpkin Lantern":{
+            "tags":[
+                "lantern"
+            ],
+            "values":{
+                "glow": 4.0,
+                "regenMax": 0.5
+            }
+        },
+        "Orb Lantern":{
+            "tags":[
+                "lantern"
+            ],
+            "values":{
+                "glow": 5.0,
+                "miningMult": 0.09
+            }
+        },
+        "Pearl Lantern":{
+            "tags":[
+                "lantern"
+            ],
+            "values":{
+                "glow": 5.0,
+                "movementSpeed": 0.07,
+                "meleeSpeed": 0.063,
+                "rangeSpeed": 0.063
+            }
+        },
+        "Subterrier":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+                "treeName": "subterrierTree"
+            }
+        },
+        "Embertail":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Owlux":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Fanhare":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Jr. Orange Slime":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Jr. Blue Slime":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Jr. Purple Slime":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Jr. Lava Slime":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Prince Slime":{
+            "tags":[
+                "pet"
+            ],
+            "values":{
+            }
+        },
+        "Wooden Sword":{
+            "tags":[
+                "weapon"
+            ],
+            "values":{
+            }
+        }
+    },
+    "Sets":{
+        "Iron Set":{
+            "parts":[
+                "Iron Helm",
+                "Iron Breastplate",
+                "Iron Pants"
+            ],
+            "Effect":{
+                "armorLowHP": 0.19
+            }
+        }
+    },
+    "modifiers":{
+        "Subterrier":{
+            "healthMax":4.0,
+            "armorMax":{
+                "min":0.5,
+                "max":5.0
+            }
+        }
+    }
+}

@@ -1,0 +1,252 @@
+{
+    "Layout":{
+        "Theme":{
+
+        },
+        "BaseTabs":{
+            "Main":"items",
+            "Skill Trees": "tree",
+            "Configs":"config"
+        },
+        "Skill Trees":[
+            "Melee Tree",
+            "Range Tree",
+            "Movement Tree",
+            "Mining Tree",
+            "Garden Tree",
+            "Crafting Tree"
+        ],
+        "Main":{
+            "Weapon":"weapon",
+            "Helmet":"helmet",
+            "Chestpiece":"chest",
+            "Boots":"boot",
+            "Necklace":"necklace",
+            "Ring 1":"ring",
+            "Ring 2":"ring",
+            "Offhand":"offhand",
+            "Lantern":"lantern",
+            "Pet":"pet",
+            "Bag":"bag"
+        }
+    },
+    "Statistics":{
+        "EHP":"ehp",
+        "Health":"health",
+        "Armor":"armor",
+        "Melee DPS":"meleeDam,4",
+        "Melee Crit":"meleeCrit",
+        "Melee Crit Mult":"meleeCritMult",
+        "Melee Speed":"meleeSpd",
+        "Range DPS":"rangeDam,4",
+        "Range Crit":"rangeCrit",
+        "Range Crit Mult":"rangeCritMult",
+        "Range Speed":"rangeSpd",
+        "Move Speed":"speed",
+        "Immunities":"1,3",
+        "slimeRes":"slimeResist",
+        "poisonRes":"poisonResist",
+        "larvaRes":"larvaResist",
+        "Dodge":"dodge"
+    },
+    "hiddenStatistics":{
+        "Life on Melee":"meleeLife"
+    },
+    "BaseStats":{
+        "healthMax": 100.0,
+        "healthMult": 1.0,
+        "armorMax":0.0,
+        "armorMult":1.0,
+        "dodgeCh":0.0,
+        "miningMax":0.0,
+        "miningMult":1.0,
+        "miningSpeed":1.0, 
+        "rangeMax":0.0,
+        "rangeSpeed":1.0,
+        "rangeMult":1.0,
+        "meleeMax":10.0,
+        "meleeSpeed":1.0,
+        "meleeMult":1.0,
+        "critCh": 0.0,
+        "critDam": 2.0,
+        "damageMult":0.0,
+        "damageOnBurnVictims":0.0,
+        "lifeOnHit": 0.0,
+        "lifeOnMeleeHit":0.0,
+        "slimeRes":0.0,
+        "poisonRes":0.0,
+        "larvaRes":0.0,
+        "bossMult":0.0,
+        "bossRdc":1.0,
+        "foodRdc":0.0,
+        "explosiveMult":0.0,
+        "exHarvest":0.0,
+        "exOre":0.0,
+        "movementSpeed":1.0,
+        "thorns":0.0,
+        "regenMax":0.0,
+        "regenMult":0.0,
+        "moveAfterDodge":0.0,
+        "poisonCh":0.0,
+        "burnHit":0.0,
+        "burnQck":1.0,
+        "glow":0.0,
+        "pickupRad":1.0,
+        "scndCh":0.0,
+        "fishingMax":0.0,
+        "fishingCh":0.0,
+        "fishingClose":0.0,
+        "fishingFast":0.0,
+        "fishingNonFish":0.0,
+        "fishingRarity":0.0,
+        "petCritCh":0.0,
+        "petCritDam":2.0,
+        "petDamMult":1.0,
+        "petEfectivness":1.0,
+        "petSpeed":1.0,
+        "petBossMult": 0.0,
+        "knockbackCh":0.0,
+        "boatSpeed":1.0,
+        "usableArmor":0.75,
+        "enemyDam":10.0,
+        "lowestDam":0.25,
+        "damageTknMult":1.0,
+        "azCh":0.1,
+        "omCH":0.3,
+        "raCh":0.2,
+        "armorLowHP": 0.0,
+        "isBoss":0.0,
+        "enemySpeed":1.0,
+        "oreDistance":1.0
+    },
+    "Equations":{
+        "ehp":{
+            "enemyDam":"base",
+            "damTaken":"subtract",
+            "timesHit":"multiply",
+            "health":"add"
+        },
+        "timesHit":{
+            "health":"base",
+            "damTaken":"divide"
+        },
+        "damTaken":{
+            "enemyDam":"base",
+            "realArmor":"subtract",
+            "enemyDam2":"larger",
+            "bossReduction":"multiply",
+            "damageTknMult":"multiply"
+        },
+        "bossReduction":{
+            "bossRdc":"base",
+            "isBoss":"larger"
+        },
+        "realArmor":{
+            "armor":"base",
+            "usableArmor":"multiply"
+        },
+        "enemyDam2":{
+            "enemyDam":"base",
+            "lowestDam":"multiply"
+        },
+        "health":{
+            "healthMax":"base",
+            "healthMult":"multiply"
+        },
+        "armor":{
+            "armorMax":"base",
+            "armorMult":"multiply"
+        },
+        "meleeDam":{
+            "meleeBaseHit":"base",
+            "meleeCritHit":"add",
+            "meleeSpd":"divide"
+        },
+        "meleeBaseHit":{
+            "meleeMax":"base",
+            "meleeMultiplier":"multiply"
+        },
+        "meleeCritHit":{
+            "meleeBaseHit":"base",
+            "meleeCritMult":"multiply",
+            "meleeCrit":"multiply"
+        },
+        "meleeMultiplier":{
+            "meleeMult":"base",
+            "damageMult":"add"
+        },
+        "meleeCrit":{
+            "critCh":"base"
+        },
+        "meleeCritMult":{
+            "critDam":"base"
+        },
+        "meleeSpd":{
+            "meleeSpeed":"base"
+        },
+        "rangeDam":{
+            "rangeBaseHit":"base",
+            "rangeCritHit":"add",
+            "rangeSpd":"divide"
+        },
+        "rangeBaseHit":{
+            "rangeMax":"base",
+            "rangeMultiplier":"multiply"
+        },
+        "rangeCritHit":{
+            "rangeBaseHit":"base",
+            "rangeCrit":"multiply",
+            "rangeCritMult":"multiply"
+        },
+        "rangeMultiplier":{
+            "rangeMult":"base",
+            "damageMult":"add"
+        },
+        "rangeCrit":{
+            "critCh":"base"
+        },
+        "rangeCritMult":{
+            "critDam":"base"
+        },
+        "rangeSpd":{
+            "rangeSpeed":"base"
+        },
+        "speed":{
+            "movementSpeed":"base"
+        },
+        "dodge":{
+            "dodgeCh":"base"
+        },
+        "meleeLife":{
+            "lifeOnMeleeHit":"base",
+            "lifeOnHit":"add"
+        }
+    },
+    "Configurations":{
+        "Enemies":{
+            "type":"list",
+            "vars":{
+                "Orange Slime":{
+                    "isBoss":0.0,
+                    "enemyDam":10.0
+                },
+                "Glurch":{
+                    "isBoss":1.0,
+                    "enemyDam":44.0
+                }
+            }
+        },
+        "Near Water":{
+            "type":"bool",
+            "vars":"nearWater"
+        },
+        "Recent Hits":{
+            "type":"min/maxint",
+            "vars":{
+                "vars": "recentHits",
+                "min":0.0,
+                "max":5.0
+            }
+        }
+    }
+}

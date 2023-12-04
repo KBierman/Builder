@@ -1,0 +1,1067 @@
+{
+    "Melee Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Melee Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Range Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Movement Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Mining Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Crafting Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "Garden Tree":{
+        "pointValues":{
+            "meleeMult":0.02
+        },
+        "points":0,
+        "maxPoints":25,
+        "nodes":{
+            "Quick Strikes":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Building Anger","Fast and Furious"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeSpeed":0.02},
+                    "2":{"meleeSpeed":0.02},
+                    "3":{"meleeSpeed":0.02},
+                    "4":{"meleeSpeed":0.02},
+                    "5":{"meleeSpeed":0.02}
+                },
+                "powerNext":5
+            },
+            "Building Anger":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Heavy Swings","Stubborn Fighter"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"meleeMultOnSuccess":0.02, "successHitMax":2.0},
+                    "2":{"successHitMax":2.0},
+                    "3":{"successHitMax":2.0},
+                    "4":{"successHitMax":2.0},
+                    "5":{"successHitMax":2.0}
+                },
+                "powerNext":5
+            },
+            "Fast and Furious":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Stubborn Fighter","Taking a Step Back"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToIncMeleeSpd":0.02, "incMeleeSpdMult":0.5},
+                    "2":{"chanceToIncMeleeSpd":0.02},
+                    "3":{"chanceToIncMeleeSpd":0.02},
+                    "4":{"chanceToIncMeleeSpd":0.02},
+                    "5":{"chanceToIncMeleeSpd":0.02}
+                },
+                "powerNext":5
+            },
+            "Heavy Swings":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Stubborn Fighter":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Seething Blade", "Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"hitSingleTargetSuccess":0.03},
+                    "2":{"hitSingleTargetSuccess":0.03},
+                    "3":{"hitSingleTargetSuccess":0.03},
+                    "4":{"hitSingleTargetSuccess":0.03},
+                    "5":{"hitSingleTargetSuccess":0.03}
+                },
+                "powerNext":5
+            },
+            "Taking a Step Back":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Strength of the Ancients"],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"knockbackCh":0.03},
+                    "2":{"knockbackCh":0.03},
+                    "3":{"knockbackCh":0.03},
+                    "4":{"knockbackCh":0.03},
+                    "5":{"knockbackCh":0.03}
+                },
+                "powerNext":5
+            },
+            "Seething Blade":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"chanceToResHp":0.1, "resHp":0.01},
+                    "2":{"resHp":0.01},
+                    "3":{"resHp":0.01},
+                    "4":{"resHp":0.01},
+                    "5":{"resHp":0.01}
+                },
+                "powerNext":5
+            },
+            "Strength of the Ancients":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":5,
+                "inPower":0,
+                "values":{
+                    "1":{"bossMult":0.04},
+                    "2":{"bossMult":0.04},
+                    "3":{"bossMult":0.04},
+                    "4":{"bossMult":0.04},
+                    "5":{"bossMult":0.04}
+                },
+                "powerNext":5
+            }
+        }
+    },
+    "subterrierTree":{
+        "points":0,
+        "maxPoints":5,
+        "nodes":{
+            "Mastery 1":{
+                "reqStartPower":0,
+                "power":0,
+                "outputPower":1,
+                "next":["Mastery 2"],
+                "inPowerMax":1,
+                "inPower":0,
+                "choice":0,
+                "mastery":{
+                    "Asserting Dominance":{"petBossMult":0.15},
+                    "Breaking Skin":{"petCritDam":0.3},
+                    "Intimidating Presence":{"petStunDur":1.0},
+                    "Laser Pointer Play":{"petCritCh":0.1},
+                    "Off Leash":{"petTrplCh":0.07},
+                    "Paralyzing Fangs":{"petStunCh":0.1},
+                    "Predator's Mark":{"petDamOnStun":0.5},
+                    "Puffing Up":{"petMeleeMult":0.1}
+                },
+                "powerNext":1
+            },
+            "Mastery 2":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Mastery 3"],
+                "inPowerMax":1,
+                "inPower":0,
+                "choice":0,
+                "mastery":{
+                    "Asserting Dominance":{"petBossMult":0.15},
+                    "Breaking Skin":{"petCritDam":0.3},
+                    "Intimidating Presence":{"petStunDur":1.0},
+                    "Laser Pointer Play":{"petCritCh":0.1},
+                    "Off Leash":{"petTrplCh":0.07},
+                    "Paralyzing Fangs":{"petStunCh":0.1},
+                    "Predator's Mark":{"petDamOnStun":0.5},
+                    "Puffing Up":{"petMeleeMult":0.1}
+                },
+                "powerNext":1
+            },
+            "Mastery 3":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Mastery 4"],
+                "inPowerMax":1,
+                "inPower":0,
+                "choice":0,
+                "mastery":{
+                    "Asserting Dominance":{"petBossMult":0.15},
+                    "Breaking Skin":{"petCritDam":0.3},
+                    "Intimidating Presence":{"petStunDur":1.0},
+                    "Laser Pointer Play":{"petCritCh":0.1},
+                    "Off Leash":{"petTrplCh":0.07},
+                    "Paralyzing Fangs":{"petStunCh":0.1},
+                    "Predator's Mark":{"petDamOnStun":0.5},
+                    "Puffing Up":{"petMeleeMult":0.1}
+                },
+                "powerNext":1
+            },
+            "Mastery 4":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":["Mastery 5"],
+                "inPowerMax":1,
+                "inPower":0,
+                "choice":0,
+                "mastery":{
+                    "Asserting Dominance":{"petBossMult":0.15},
+                    "Breaking Skin":{"petCritDam":0.3},
+                    "Intimidating Presence":{"petStunDur":1.0},
+                    "Laser Pointer Play":{"petCritCh":0.1},
+                    "Off Leash":{"petTrplCh":0.07},
+                    "Paralyzing Fangs":{"petStunCh":0.1},
+                    "Predator's Mark":{"petDamOnStun":0.5},
+                    "Puffing Up":{"petMeleeMult":0.1}
+                },
+                "powerNext":1
+            },
+            "Mastery 5":{
+                "reqStartPower":1,
+                "outputPower":1,
+                "power":0,
+                "next":[],
+                "inPowerMax":1,
+                "inPower":0,
+                "choice":0,
+                "mastery":{
+                    "Asserting Dominance":{"petBossMult":0.15},
+                    "Breaking Skin":{"petCritDam":0.3},
+                    "Intimidating Presence":{"petStunDur":1.0},
+                    "Laser Pointer Play":{"petCritCh":0.1},
+                    "Off Leash":{"petTrplCh":0.07},
+                    "Paralyzing Fangs":{"petStunCh":0.1},
+                    "Predator's Mark":{"petDamOnStun":0.5},
+                    "Puffing Up":{"petMeleeMult":0.1}
+                },
+                "powerNext":1
+            }
+        }
+    }
+}
